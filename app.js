@@ -1,11 +1,13 @@
+// bring in routes
+const postRoutes = require('./routes/post.js')
+
 const express = require ('express');
 const app = express();  //executing and ready to listen any request
 //enables to access all properties and methods from 'Express' package
 // default url, callback function
-app.get('/' , (req,res) => {
-    //res.end()
-    res.send('hey! hello from Express :P');
-});
+
+
+app.get('/', postRoutes.getPosts);
 
 const port = 8080;
 app.listen(port, () => {
