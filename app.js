@@ -1,5 +1,5 @@
-// bring in routes
-const postRoutes = require('./routes/post.js')
+// bring in routes using object destructuring :P
+const { getPosts } = require('./routes/post.js')
 
 const express = require ('express');
 const app = express();  //executing and ready to listen any request
@@ -7,7 +7,7 @@ const app = express();  //executing and ready to listen any request
 // default url, callback function
 
 
-app.get('/', postRoutes.getPosts);
+app.get('/', getPosts);
 
 const port = 8080;
 app.listen(port, () => {
