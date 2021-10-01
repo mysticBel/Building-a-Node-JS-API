@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.13"
   },
   "name": "basic",
@@ -12,5 +13,13 @@
     "dev": "nodemon app.js"
   },
   "author": "Maribel Maza",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysticBel/Node-JS-API-Development.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mysticBel/Node-JS-API-Development/issues"
+  },
+  "homepage": "https://github.com/mysticBel/Node-JS-API-Development#readme"
 }
