@@ -1,20 +1,15 @@
 // bring in routes using object destructuring :P
-const { getPosts } = require('./routes/post.js')
+
 const express = require ('express');
-const morgan = require('morgan');
+const morgan = require('morgan'); 
 const app = express();  //executing and ready to listen any request
 //enables to access all properties and methods from 'Express' package
 // default url, callback function
-
+const postRoutes = require('./routes/post.js') // postRoutes now works as a middleware
+//middleware
 app.use(morgan('dev'));
 
-//creating a middleware
-const myOwnMiddleware = (req, res, next) => {
-    console.log('middleware is working OK !! ');
-    next();
-}
-app.use(myOwnMiddleware);
-app.get('/', getPosts);
+app.use('/', postRoutes);
 
 
 const port = 8080;
