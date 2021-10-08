@@ -6,6 +6,7 @@ const app = express();  //executing and ready to listen any request
 // default url, callback function
 const morgan = require('morgan'); 
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 dotenv.config();
 // db :
@@ -23,7 +24,7 @@ mongoose.connection.on('error', err => {
 const postRoutes = require('./routes/post.js') // postRoutes now works as a middleware
 //middleware
 app.use(morgan('dev'));
-
+app.use(bodyParser.json());
 app.use('/', postRoutes);
 
 
