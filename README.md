@@ -1,4 +1,4 @@
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Building+ API+ using+ Node + JS +🦄+💚 &center=true&width=600&height=50&color=84c710"></a>
+# Building API using Node JS 🦄💚
 
 In this project I'm learning some JavaScript, Node JS event loop, Asynchronous programming, using node modules, npm modules and creating own modules, creating server, connect to database and sending json responses.
 
@@ -12,21 +12,21 @@ This project involved these packages from npm ✨🐼
 
 
 
-## 🐸 Creating a **middleware** :
+### 🐸 Creating a **middleware** :
 
 
 ![middleware](https://raw.githubusercontent.com/mysticBel/Node-JS-API-Development/master/images/image0.png)
 
-## 🐸 A json post is sent from **Postman** to the server  :
+###  🐸 A json post is sent from **Postman** to the server  :
 ![middleware](https://raw.githubusercontent.com/mysticBel/Node-JS-API-Development/master/images/image1.png)
 
-## 🐸 getting status 200 OK 😋:
+###  🐸 getting status 200 OK 😋:
 ![middleware](https://raw.githubusercontent.com/mysticBel/Node-JS-API-Development/master/images/image2.png) 
 
-## 🐸 Creating a collection in **MongoDB** :
+###  🐸 Creating a collection in **MongoDB** :
 ![middleware](https://raw.githubusercontent.com/mysticBel/Node-JS-API-Development/master/images/image3.png)
 
-## 🐸 Json response displayed in the server :
+### 🐸 Json response displayed in the server :
 ![middleware](https://raw.githubusercontent.com/mysticBel/Node-JS-API-Development/master/images/image4.png)
 
 
